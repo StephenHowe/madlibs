@@ -6,7 +6,7 @@ generate_story <- function(noun, verb, adjective, adverb) {
     {verb} {adverb}. It was the funniest thing ever!
   ")
 
-  log <- cat("Hi Stephen!", file = stderr())
+  cat("Hi Stephen!", file = stderr())
 
   story
 }
